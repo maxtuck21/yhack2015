@@ -2,13 +2,16 @@ extends layout
 
 block content
   h1= title
+  p
+    img(src = "./images/write.png", id = "leftImage", height = 250, width = 250, align = "left")
+    img(src = "./images/search.png", id = "rightImage", height = 250, width = 250, align = "right")
   p Welcome to #{title}. This site is designed for you to send an anonymous note. Once this note is entered in, someone within a certain geofenced location will have the ability to view your notes.
 
 block text
-  textarea(name: 'text', rows: '250', columns: '500')
+  textarea(name = 'text', rows = '20', cols = '190')
   br
   hr
   br
 
 block submit
-  button.btn Click to submit!
+  button.btn.btn-success Click to submit!

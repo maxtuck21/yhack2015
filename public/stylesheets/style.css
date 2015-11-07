@@ -1,8 +1,28 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 30px "Open Sans", Helvetica, Arial, sans-serif;
+  background-color: #ABCDEF
 }
-
+h1 {
+  text-align: center;
+  font: 60px "Open Sans", Helvetica, Arial, sans-serif;
+}
 a {
   color: #00B7FF;
+}
+
+.btn-primary {
+  align-self: center;
+}
+
+textarea {
+  resize: none;
+}
+
+#imgLeft {
+  float: right;
+}
+
+#imgRight {
+  float: right;
 }
